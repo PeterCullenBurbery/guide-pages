@@ -1,0 +1,86 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2421,         78]
+NotebookOptionsPosition[      1637,         58]
+NotebookOutlinePosition[      2068,         74]
+CellTagsIndexPosition[      2025,         71]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["All Special Characters", "Title",
+ CellChangeTimes->{{3.86700862148779*^9, 
+  3.8670086251097956`*^9}},ExpressionUUID->"ffd50432-6cbe-45d3-b24a-\
+15503ab5d95f"],
+
+Cell[BoxData[
+ RowBox[{"(", GridBox[{
+    {"\[AAcute]"},
+    {
+     RowBox[{"\[AliasDelimiter]", "a"}]},
+    {"\[Placeholder]"},
+    {"\[Placeholder]"},
+    {"\[Placeholder]"},
+    {"\[Placeholder]"}
+   }], ")"}]], "Input",
+ CellChangeTimes->{{3.867008646879794*^9, 
+  3.867008681240794*^9}},ExpressionUUID->"25d2a779-0d90-4c9b-8674-\
+00d084d0b099"],
+
+Cell[BoxData["\[AquariusSign]"], "Input",
+ CellChangeTimes->{{3.867008712530801*^9, 
+  3.8670087160927887`*^9}},ExpressionUUID->"86c874a9-4d5d-4127-bf21-\
+330a82369ed5"],
+
+Cell[BoxData[
+ RowBox[{"\[AliasDelimiter]", "atuo"}]], "Input",
+ CellChangeTimes->{{3.8670088468348064`*^9, 
+  3.867008852240803*^9}},ExpressionUUID->"dff21039-6ee6-47ce-97fd-\
+6efe80df78a0"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8670088009568043`*^9, 
+  3.867008806640803*^9}},ExpressionUUID->"3e06ce3f-7e27-4432-8b6b-\
+2ddd1428b46c"]
+}, Open  ]]
+},
+WindowSize->{495.59999999999997`, 575.4},
+WindowMargins->{{Automatic, 52.200000000000045`}, {Automatic, 0}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 8, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"da421d5b-51cf-4ce5-abfe-35540c9d7ec7"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 166, 3, 199, "Title",ExpressionUUID->"ffd50432-6cbe-45d3-b24a-15503ab5d95f"],
+Cell[749, 27, 349, 12, 141, "Input",ExpressionUUID->"25d2a779-0d90-4c9b-8674-00d084d0b099"],
+Cell[1101, 41, 169, 3, 35, "Input",ExpressionUUID->"86c874a9-4d5d-4127-bf21-330a82369ed5"],
+Cell[1273, 46, 191, 4, 35, "Input",ExpressionUUID->"dff21039-6ee6-47ce-97fd-6efe80df78a0"],
+Cell[1467, 52, 154, 3, 35, "Input",ExpressionUUID->"3e06ce3f-7e27-4432-8b6b-2ddd1428b46c"]
+}, Open  ]]
+}
+]
+*)
+
