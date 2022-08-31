@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     26101,        612]
-NotebookOptionsPosition[     19805,        488]
-NotebookOutlinePosition[     20578,        511]
-CellTagsIndexPosition[     20535,        508]
+NotebookDataLength[     27011,        628]
+NotebookOptionsPosition[     20481,        500]
+NotebookOutlinePosition[     21254,        523]
+CellTagsIndexPosition[     21211,        520]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -350,23 +350,35 @@ Cell[TextData[{
  CellID->299240612,ExpressionUUID->"5fb32007-e9be-4c9a-8c03-6ce125bc49d2"],
 
 Cell[TextData[{
- Cell[BoxData["FindVertex"], "InlineGuideFunction",
+ Cell[BoxData["FindVertexCover"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"6dd5486b-4977-493d-91b5-c4d24f57f2fb",ExpressionUUID->
+  "a33f5576-1371-41e6-8566-65ba4f4eadb8"],
+ " \[LongDash] find a vertex cover of a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.8709630078510685`*^9, 3.870963015155057*^9}},
+ CellID->334127244,ExpressionUUID->"8eaff42f-b0e0-4e70-ad3f-bdfe07a1b807"],
+
+Cell[TextData[{
+ Cell[BoxData["FindVertexCut"], "InlineGuideFunction",
   TaggingRules->{"PageType" -> "Function"},
   CellTags->"76d27c91-34be-4c25-bb58-97594d0f7bb2",ExpressionUUID->
   "afb79eff-9434-4b67-bbb0-82df7ecee5d3"],
- " \[LongDash] ",
- Cell[BoxData[
-  TagBox[
-   TagBox[
-    FrameBox["description"],
-    "GuideTextPlaceholder"],
-   EventHandlerTag[{"MouseClicked" :> SelectionMove[
-       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
-     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
-  "4fe60ea5-d480-4ff2-8f3a-180bf8f90279"]
+ " \[LongDash] find a vertex cut in a graph that is as small as possible"
 }], "GuideText",
- CellChangeTimes->{{3.870962966812624*^9, 3.87096296879364*^9}},
+ CellChangeTimes->{{3.870962966812624*^9, 3.870962999329117*^9}, {
+  3.8709630430790367`*^9, 3.8709630478998847`*^9}},
  CellID->5120740,ExpressionUUID->"2c29a664-061e-47bf-90ac-45b473db9950"],
+
+Cell[TextData[{
+ Cell[BoxData["FindVertexIndependentPath"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "1e95affd-b480-45db-ab67-625cd17e8335"],
+ " \[LongDash] find vertex-independent paths in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870963021765568*^9, 3.87096305964614*^9}},
+ CellID->337768848,ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -374,8 +386,8 @@ Cell[TextData[{
    FrameBox["\<\"XXXX\"\>"],
    "FunctionPlaceholder"]], "InlineGuideFunction",
   TaggingRules->{"PageType" -> "Function"},
-  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
-  "1e95affd-b480-45db-ab67-625cd17e8335"],
+  CellTags->"98da3eba-c801-41e0-81fc-00c1b7676a7a",ExpressionUUID->
+  "84e8d26a-d00a-4a85-84de-8cf8aa90e712"],
  " \[LongDash] ",
  Cell[BoxData[
   TagBox[
@@ -385,9 +397,9 @@ Cell[TextData[{
    EventHandlerTag[{"MouseClicked" :> SelectionMove[
        EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
      Automatic, PassEventsUp -> True}]]],ExpressionUUID->
-  "3ed37ed5-6660-4b71-bd0e-3c79e47ed4ea"]
+  "699ca81b-588e-4ac5-92a0-be243519e718"]
 }], "GuideText",
- CellID->337768848,ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b"],
+ CellID->61801175,ExpressionUUID->"6e23d257-2a29-462e-8603-0c84155a8924"],
 
 Cell[CellGroupData[{
 
@@ -581,37 +593,41 @@ Cell[14008, 331, 434, 8, 25, "GuideText",ExpressionUUID->"49f5c45a-1df9-40dd-88d
  CellID->4271414],
 Cell[14445, 341, 454, 8, 25, "GuideText",ExpressionUUID->"5fb32007-e9be-4c9a-8c03-6ce125bc49d2",
  CellID->299240612],
-Cell[14902, 351, 722, 17, 28, "GuideText",ExpressionUUID->"2c29a664-061e-47bf-90ac-45b473db9950",
+Cell[14902, 351, 434, 8, 25, "GuideText",ExpressionUUID->"8eaff42f-b0e0-4e70-ad3f-bdfe07a1b807",
+ CellID->334127244],
+Cell[15339, 361, 508, 9, 25, "GuideText",ExpressionUUID->"2c29a664-061e-47bf-90ac-45b473db9950",
  CellID->5120740],
-Cell[15627, 370, 712, 19, 28, "GuideText",ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b",
+Cell[15850, 372, 451, 8, 25, "GuideText",ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b",
  CellID->337768848],
+Cell[16304, 382, 711, 19, 28, "GuideText",ExpressionUUID->"6e23d257-2a29-462e-8603-0c84155a8924",
+ CellID->61801175],
 Cell[CellGroupData[{
-Cell[16364, 393, 103, 1, 26, "GuideDelimiter",ExpressionUUID->"909fc0e7-8eeb-44a4-a430-a7cd55d389a3",
+Cell[17040, 405, 103, 1, 26, "GuideDelimiter",ExpressionUUID->"909fc0e7-8eeb-44a4-a430-a7cd55d389a3",
  CellID->311258892],
-Cell[16470, 396, 2042, 51, 28, "InlineGuideFunctionListing",ExpressionUUID->"8dc037eb-d580-40a0-8d42-0995edaf7976",
+Cell[17146, 408, 2042, 51, 28, "InlineGuideFunctionListing",ExpressionUUID->"8dc037eb-d580-40a0-8d42-0995edaf7976",
  CellID->173389911]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18561, 453, 121, 1, 74, "GuideMoreAboutSection",ExpressionUUID->"0395ce0e-e76d-4b37-b761-7ed736306e72",
+Cell[19237, 465, 121, 1, 74, "GuideMoreAboutSection",ExpressionUUID->"0395ce0e-e76d-4b37-b761-7ed736306e72",
  CellID->23220180],
-Cell[18685, 456, 106, 1, 25, "GuideMoreAbout",ExpressionUUID->"5130739a-fce3-411c-9dcf-b19ec18cb133",
+Cell[19361, 468, 106, 1, 25, "GuideMoreAbout",ExpressionUUID->"5130739a-fce3-411c-9dcf-b19ec18cb133",
  CellID->1567025153],
-Cell[18794, 459, 105, 1, 25, "GuideMoreAbout",ExpressionUUID->"ee79a53a-2833-4c84-8f98-4094d915537f",
+Cell[19470, 471, 105, 1, 25, "GuideMoreAbout",ExpressionUUID->"ee79a53a-2833-4c84-8f98-4094d915537f",
  CellID->252299663]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18936, 465, 191, 2, 74, "GuideRelatedLinksSection",ExpressionUUID->"2bc7c49e-a881-449c-a9fb-300ce15a496a",
+Cell[19612, 477, 191, 2, 74, "GuideRelatedLinksSection",ExpressionUUID->"2bc7c49e-a881-449c-a9fb-300ce15a496a",
  CellID->415694148],
-Cell[19130, 469, 108, 1, 25, "GuideRelatedLinks",ExpressionUUID->"4823ac5b-075d-4e75-aae0-2e40fdd93af5",
+Cell[19806, 481, 108, 1, 25, "GuideRelatedLinks",ExpressionUUID->"4823ac5b-075d-4e75-aae0-2e40fdd93af5",
  CellID->604165924]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[19275, 475, 175, 2, 74, "KeywordsSection",ExpressionUUID->"73e8092a-f89e-4591-8784-0234ce6078ac",
+Cell[19951, 487, 175, 2, 74, "KeywordsSection",ExpressionUUID->"73e8092a-f89e-4591-8784-0234ce6078ac",
  CellID->530957582],
-Cell[19453, 479, 166, 2, 24, "Keywords",ExpressionUUID->"b7b39d0a-e7ef-4652-9fd5-70a6bec80976",
+Cell[20129, 491, 166, 2, 24, "Keywords",ExpressionUUID->"b7b39d0a-e7ef-4652-9fd5-70a6bec80976",
  CellID->56140550],
-Cell[19622, 483, 167, 2, 24, "Keywords",ExpressionUUID->"a239d6ea-975f-42df-b081-69b3d43f5de8",
+Cell[20298, 495, 167, 2, 24, "Keywords",ExpressionUUID->"a239d6ea-975f-42df-b081-69b3d43f5de8",
  CellID->101210638]
 }, Open  ]]
 }
