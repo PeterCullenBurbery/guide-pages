@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8352,        226]
-NotebookOptionsPosition[      5686,        164]
-NotebookOutlinePosition[      6458,        187]
-CellTagsIndexPosition[      6415,        184]
+NotebookDataLength[     14812,        369]
+NotebookOptionsPosition[     10878,        286]
+NotebookOutlinePosition[     11631,        308]
+CellTagsIndexPosition[     11588,        305]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,8 +30,130 @@ Cell["XXXX", "GuideAbstract",
 
 Cell[CellGroupData[{
 
-Cell["", "GuideFunctionsSection",
+Cell["Graph Functions", "GuideFunctionsSection",
+ CellChangeTimes->{{3.870961604520365*^9, 3.870961607150709*^9}},
  CellID->1866139230,ExpressionUUID->"15ac0464-47d4-4611-8cf1-d8f53e6ed0f3"],
+
+Cell[TextData[{
+ Cell[BoxData["FindClique"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"deb21ac6-1c76-4531-bc4e-97ea002bdaf0",ExpressionUUID->
+  "514e129e-c195-45ad-9c25-9105746ef5a3"],
+ " \[LongDash] find a clique in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.8709615267134438`*^9, 3.870961535502277*^9}},
+ CellID->395751302,ExpressionUUID->"0db89213-32cb-4dca-b587-6e97a9ecfb70"],
+
+Cell[TextData[{
+ Cell[BoxData["FindCycle"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"56a01302-c73a-4afd-9af6-d8705ca8bcfc",ExpressionUUID->
+  "537e66a0-d4ae-41cf-a24b-f2568aafbcb6"],
+ " \[LongDash] find a cycle in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870961555643319*^9, 3.8709615627157383`*^9}},
+ CellID->104308386,ExpressionUUID->"62eb808d-569a-4288-bab0-536d0acddb51"],
+
+Cell[TextData[{
+ Cell[BoxData["FindEdgeColoring"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"f81c8b7b-0e0f-42d0-9524-e52b1a39d040",ExpressionUUID->
+  "c50dee07-f81a-432f-b5fc-1a3b8841c5a2"],
+ " \[LongDash] find a way to color the edges of a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870961571684295*^9, 3.8709615849517927`*^9}},
+ CellID->325008263,ExpressionUUID->"55ed6f19-1a5d-4878-bb3e-10f74448ee1a"],
+
+Cell[TextData[{
+ Cell[BoxData["FindEdgeCover"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"00f65ba6-fc08-441b-81af-11ee987c57cb",ExpressionUUID->
+  "9f5aebad-85e6-43c6-9e01-b34e2389816d"],
+ " \[LongDash] find an edge cover of a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870961589952694*^9, 3.8709615980669017`*^9}},
+ CellID->2532611,ExpressionUUID->"d3b7a2d9-afc1-4ffc-be5a-5ac9875f699b"],
+
+Cell[TextData[{
+ Cell[BoxData["FindEdgeCut"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"0e4e15dd-fd37-4ec2-89a6-a2cc52ca82df",ExpressionUUID->
+  "daf50158-59a2-42a2-838d-2d3cb83b1333"],
+ " \[LongDash] find a smallest edge cut"
+}], "GuideText",
+ CellChangeTimes->{{3.8709616377894983`*^9, 3.8709616473593993`*^9}},
+ CellID->426232318,ExpressionUUID->"9b421d23-dbff-4170-95cb-9abfe4dc89f0"],
+
+Cell[TextData[{
+ Cell[BoxData["FindEdgeIndependentPaths"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"460cd432-df65-4755-8327-e430e4a7e058",ExpressionUUID->
+  "815ebe27-79b7-4b24-8aa4-67227dc15c81"],
+ " \[LongDash] find edge independent paths"
+}], "GuideText",
+ CellChangeTimes->{{3.8709616527460985`*^9, 3.8709616666268873`*^9}},
+ CellID->8082996,ExpressionUUID->"1a9e78b2-8b0d-4043-8d10-32283f74852f"],
+
+Cell[TextData[{
+ Cell[BoxData["FindEulerianCycle"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"71be8e1d-09ac-4f19-b788-4c4f346759a7",ExpressionUUID->
+  "4c053e8a-8abc-43dd-b5fc-1ff82e561ed7"],
+ " \[LongDash] find an Eulerian cycle in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870961678439576*^9, 3.8709616868772244`*^9}},
+ CellID->639399598,ExpressionUUID->"8e694069-20cb-4225-b1ff-d347a9f3fe03"],
+
+Cell[TextData[{
+ Cell[BoxData["FindFundamentalCycles"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"a1227439-ebc1-4768-9225-debc1d1429b6",ExpressionUUID->
+  "c99ca690-a365-473b-b748-cde7ddf38a09"],
+ " \[LongDash] find fundamental cycles in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870961698262*^9, 3.8709617096488156`*^9}},
+ CellID->237873323,ExpressionUUID->"4c24b805-712f-4020-9923-9e9cbe4c81f6"],
+
+Cell[TextData[{
+ Cell[BoxData["FindGraphIsomorphism"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"43d5e89c-bbe8-49af-b49f-1fb4c22e6f1a",ExpressionUUID->
+  "418303e1-0516-4e02-b5a7-86a5a030e4a6"],
+ " \[LongDash] find an isomorphism between two graphs"
+}], "GuideText",
+ CellChangeTimes->{{3.8709617149867144`*^9, 3.8709617359726067`*^9}},
+ CellID->363374196,ExpressionUUID->"125e1e07-9a5e-45b5-a05c-80afa03a8040"],
+
+Cell[TextData[{
+ Cell[BoxData["FindGraphPartition"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"f7315e19-8852-4878-97dd-09677b5bb74f",ExpressionUUID->
+  "567484cd-7a5e-4917-8b1e-55e93780d467"],
+ " \[LongDash] find a partition of the vertices of a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.8709617424809647`*^9, 3.8709617582105713`*^9}},
+ CellID->1031877369,ExpressionUUID->"44533884-9981-434e-bee2-bc8a63c3cdd6"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TagBox[
+   FrameBox["\<\"XXXX\"\>"],
+   "FunctionPlaceholder"]], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"5ad3258b-eeaa-4d17-b305-4784802354ac",ExpressionUUID->
+  "c8aa469e-24a5-4745-8fa5-8c185e72f901"],
+ " \[LongDash] ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "589f0add-e2d2-4083-8d8e-73f87af8db2a"]
+}], "GuideText",
+ CellID->565597949,ExpressionUUID->"17f53fe4-c59b-4b9b-a620-4d831f47dde4"],
 
 Cell[TextData[{
  Cell[BoxData["FindShortestPath"], "InlineGuideFunction",
@@ -93,10 +215,10 @@ Cell[TextData[{
     "fe463937-0547-44c4-8277-3ac6233a258f"], 
    DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
     "062ddad4-e013-45bf-990e-c143282373a7", 
-     "765796e8-84b4-4762-9a7b-6dc87f32e1b3"], $CellContext`cellobj$$ = 
+     "2a56b5a0-554c-43aa-a1fd-58f22cdc6600"], $CellContext`cellobj$$ = 
     CellObject[
     "f27851a6-ba04-4afa-ab78-8702ebbb714a", 
-     "44bcc145-17ef-45fb-acf0-3a1f30c9b35d"]}, 
+     "eff4f280-7ef7-4dd6-baf5-dbf6f0b7dd65"]}, 
     TemplateBox[{
       GraphicsBox[{{
          Thickness[0.06], 
@@ -162,9 +284,8 @@ Cell["XXXX", "Keywords",
  CellID->101210638,ExpressionUUID->"a239d6ea-975f-42df-b081-69b3d43f5de8"]
 }, Open  ]]
 },
-WindowSize->{1152., 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{1141.2, 330.},
+WindowMargins->{{114, Automatic}, {78.60000000000002, Automatic}},
 TaggingRules->{
  "CustomGuidePage" -> {
    "building" -> False, "CustomGuideQ" -> True, "CustomGuideID" -> 
@@ -193,39 +314,61 @@ Cell[764, 26, 105, 1, 30, "GuideAbstract",ExpressionUUID->"ea6e67dd-5350-44b8-ae
  CellID->2001916300]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[906, 32, 109, 1, 68, "GuideFunctionsSection",ExpressionUUID->"15ac0464-47d4-4611-8cf1-d8f53e6ed0f3",
+Cell[906, 32, 190, 2, 68, "GuideFunctionsSection",ExpressionUUID->"15ac0464-47d4-4611-8cf1-d8f53e6ed0f3",
  CellID->1866139230],
-Cell[1018, 35, 487, 9, 25, "GuideText",ExpressionUUID->"cd780c62-ed12-4f57-8145-f36e64cdf6bb",
+Cell[1099, 36, 423, 8, 25, "GuideText",ExpressionUUID->"0db89213-32cb-4dca-b587-6e97a9ecfb70",
+ CellID->395751302],
+Cell[1525, 46, 421, 8, 25, "GuideText",ExpressionUUID->"62eb808d-569a-4288-bab0-536d0acddb51",
+ CellID->104308386],
+Cell[1949, 56, 445, 8, 25, "GuideText",ExpressionUUID->"55ed6f19-1a5d-4878-bb3e-10f74448ee1a",
+ CellID->325008263],
+Cell[2397, 66, 429, 8, 25, "GuideText",ExpressionUUID->"d3b7a2d9-afc1-4ffc-be5a-5ac9875f699b",
+ CellID->2532611],
+Cell[2829, 76, 426, 8, 25, "GuideText",ExpressionUUID->"9b421d23-dbff-4170-95cb-9abfe4dc89f0",
+ CellID->426232318],
+Cell[3258, 86, 440, 8, 25, "GuideText",ExpressionUUID->"1a9e78b2-8b0d-4043-8d10-32283f74852f",
+ CellID->8082996],
+Cell[3701, 96, 439, 8, 25, "GuideText",ExpressionUUID->"8e694069-20cb-4225-b1ff-d347a9f3fe03",
+ CellID->639399598],
+Cell[4143, 106, 441, 8, 25, "GuideText",ExpressionUUID->"4c24b805-712f-4020-9923-9e9cbe4c81f6",
+ CellID->237873323],
+Cell[4587, 116, 449, 8, 25, "GuideText",ExpressionUUID->"125e1e07-9a5e-45b5-a05c-80afa03a8040",
+ CellID->363374196],
+Cell[5039, 126, 453, 8, 25, "GuideText",ExpressionUUID->"44533884-9981-434e-bee2-bc8a63c3cdd6",
+ CellID->1031877369],
+Cell[5495, 136, 712, 19, 28, "GuideText",ExpressionUUID->"17f53fe4-c59b-4b9b-a620-4d831f47dde4",
+ CellID->565597949],
+Cell[6210, 157, 487, 9, 25, "GuideText",ExpressionUUID->"cd780c62-ed12-4f57-8145-f36e64cdf6bb",
  CellID->138729883],
-Cell[1508, 46, 712, 19, 28, "GuideText",ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b",
+Cell[6700, 168, 712, 19, 28, "GuideText",ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b",
  CellID->337768848],
 Cell[CellGroupData[{
-Cell[2245, 69, 103, 1, 26, "GuideDelimiter",ExpressionUUID->"909fc0e7-8eeb-44a4-a430-a7cd55d389a3",
+Cell[7437, 191, 103, 1, 26, "GuideDelimiter",ExpressionUUID->"909fc0e7-8eeb-44a4-a430-a7cd55d389a3",
  CellID->311258892],
-Cell[2351, 72, 2042, 51, 28, "InlineGuideFunctionListing",ExpressionUUID->"8dc037eb-d580-40a0-8d42-0995edaf7976",
+Cell[7543, 194, 2042, 51, 28, "InlineGuideFunctionListing",ExpressionUUID->"8dc037eb-d580-40a0-8d42-0995edaf7976",
  CellID->173389911]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4442, 129, 121, 1, 74, "GuideMoreAboutSection",ExpressionUUID->"0395ce0e-e76d-4b37-b761-7ed736306e72",
+Cell[9634, 251, 121, 1, 74, "GuideMoreAboutSection",ExpressionUUID->"0395ce0e-e76d-4b37-b761-7ed736306e72",
  CellID->23220180],
-Cell[4566, 132, 106, 1, 25, "GuideMoreAbout",ExpressionUUID->"5130739a-fce3-411c-9dcf-b19ec18cb133",
+Cell[9758, 254, 106, 1, 25, "GuideMoreAbout",ExpressionUUID->"5130739a-fce3-411c-9dcf-b19ec18cb133",
  CellID->1567025153],
-Cell[4675, 135, 105, 1, 25, "GuideMoreAbout",ExpressionUUID->"ee79a53a-2833-4c84-8f98-4094d915537f",
+Cell[9867, 257, 105, 1, 25, "GuideMoreAbout",ExpressionUUID->"ee79a53a-2833-4c84-8f98-4094d915537f",
  CellID->252299663]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4817, 141, 191, 2, 74, "GuideRelatedLinksSection",ExpressionUUID->"2bc7c49e-a881-449c-a9fb-300ce15a496a",
+Cell[10009, 263, 191, 2, 74, "GuideRelatedLinksSection",ExpressionUUID->"2bc7c49e-a881-449c-a9fb-300ce15a496a",
  CellID->415694148],
-Cell[5011, 145, 108, 1, 25, "GuideRelatedLinks",ExpressionUUID->"4823ac5b-075d-4e75-aae0-2e40fdd93af5",
+Cell[10203, 267, 108, 1, 25, "GuideRelatedLinks",ExpressionUUID->"4823ac5b-075d-4e75-aae0-2e40fdd93af5",
  CellID->604165924]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5156, 151, 175, 2, 74, "KeywordsSection",ExpressionUUID->"73e8092a-f89e-4591-8784-0234ce6078ac",
+Cell[10348, 273, 175, 2, 74, "KeywordsSection",ExpressionUUID->"73e8092a-f89e-4591-8784-0234ce6078ac",
  CellID->530957582],
-Cell[5334, 155, 166, 2, 24, "Keywords",ExpressionUUID->"b7b39d0a-e7ef-4652-9fd5-70a6bec80976",
+Cell[10526, 277, 166, 2, 24, "Keywords",ExpressionUUID->"b7b39d0a-e7ef-4652-9fd5-70a6bec80976",
  CellID->56140550],
-Cell[5503, 159, 167, 2, 24, "Keywords",ExpressionUUID->"a239d6ea-975f-42df-b081-69b3d43f5de8",
+Cell[10695, 281, 167, 2, 24, "Keywords",ExpressionUUID->"a239d6ea-975f-42df-b081-69b3d43f5de8",
  CellID->101210638]
 }, Open  ]]
 }
