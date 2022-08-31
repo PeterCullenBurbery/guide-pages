@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14812,        369]
-NotebookOptionsPosition[     10878,        286]
-NotebookOutlinePosition[     11631,        308]
-CellTagsIndexPosition[     11588,        305]
+NotebookDataLength[     23830,        565]
+NotebookOptionsPosition[     18022,        450]
+NotebookOutlinePosition[     18775,        472]
+CellTagsIndexPosition[     18732,        469]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -135,13 +135,177 @@ Cell[TextData[{
  CellID->1031877369,ExpressionUUID->"44533884-9981-434e-bee2-bc8a63c3cdd6"],
 
 Cell[TextData[{
+ Cell[BoxData["FindHamiltonianCycle"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"5ad3258b-eeaa-4d17-b305-4784802354ac",ExpressionUUID->
+  "c8aa469e-24a5-4745-8fa5-8c185e72f901"],
+ " \[LongDash] find a Hamiltonian cycle in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870961763456075*^9, 3.8709617885990615`*^9}, {
+  3.8709624267118416`*^9, 3.8709624274804363`*^9}},
+ CellID->565597949,ExpressionUUID->"17f53fe4-c59b-4b9b-a620-4d831f47dde4"],
+
+Cell[TextData[{
+ Cell[BoxData["FindHamiltonianPath"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"5ad3258b-eeaa-4d17-b305-4784802354ac",ExpressionUUID->
+  "c31fc428-784b-4f24-917f-06e80add72cb"],
+ " \[LongDash] find a Hamiltonian path in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870962417465948*^9, 3.870962440648416*^9}},
+ CellID->461840883,ExpressionUUID->"53c10bf8-f8dd-4cf3-bd6d-c452e9bcd2c7"],
+
+Cell[TextData[{
+ Cell[BoxData["FindIndependentEdgeSet"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"593784b5-36c9-40ba-a645-f7d44cae0b05",ExpressionUUID->
+  "e0aefb3a-903c-4d3c-ba21-0e0fd1b35417"],
+ " \[LongDash] find an independent edge set in a graph with maximum number of \
+edges"
+}], "GuideText",
+ CellChangeTimes->{{3.8709624502632375`*^9, 3.8709624909445887`*^9}},
+ CellID->101379775,ExpressionUUID->"c70032fb-e947-48a1-ad54-e82aa67b37c1"],
+
+Cell[TextData[{
+ Cell[BoxData["FindIndependentVertexSet"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"593784b5-36c9-40ba-a645-f7d44cae0b05",ExpressionUUID->
+  "54d112cd-eea4-42cc-9428-f92e4ac6264d"],
+ " \[LongDash] find an independent vertex set in a graph with maximum number \
+of vertices"
+}], "GuideText",
+ CellChangeTimes->{{3.870962475296895*^9, 3.8709624984647427`*^9}},
+ CellID->211458334,ExpressionUUID->"1dfe8f6e-78dc-4977-86df-111414fa25e9"],
+
+Cell[TextData[{
+ Cell[BoxData["FindIsomorphicSubgraph"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"ac54ed55-4169-457f-aaa2-b9af219cf378",ExpressionUUID->
+  "0d4bf97d-d3c2-4fbc-8a6f-c92dcdd125d7"],
+ " \[LongDash] find an isomorphic subgraph"
+}], "GuideText",
+ CellChangeTimes->{{3.8709625143603797`*^9, 3.8709625401179204`*^9}},
+ CellID->86493837,ExpressionUUID->"ddfaf1eb-c281-4656-8186-c1fd19a23577"],
+
+Cell[TextData[{
+ Cell[BoxData["FindKClan"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"140b6b54-cba1-4fd2-9045-d672e6d38b6a",ExpressionUUID->
+  "ad8e86cd-8e3f-4a6a-a607-430f3f799614"],
+ " \[LongDash] find a k-clan"
+}], "GuideText",
+ CellChangeTimes->{{3.8709625433047056`*^9, 3.870962551500181*^9}, 
+   3.870962585228456*^9},
+ CellID->32485496,ExpressionUUID->"10d18bab-500a-4be2-b60c-ccd5ba001246"],
+
+Cell[TextData[{
+ Cell[BoxData["FindKClique"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c689302e-2d2a-4f17-ac10-244bb2c230b2",ExpressionUUID->
+  "5841c987-a28f-4fc1-9f7e-50fa446a14fc"],
+ " \[LongDash] find a k-clique"
+}], "GuideText",
+ CellChangeTimes->{{3.8709625556394787`*^9, 3.8709625620351944`*^9}},
+ CellID->42777921,ExpressionUUID->"a0bab55a-9fdf-469e-aff6-a5b535d7493c"],
+
+Cell[TextData[{
+ Cell[BoxData["FindKClub"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"200d66e4-f5a8-4450-b4eb-eff70a6f3e76",ExpressionUUID->
+  "331e44a5-b496-4da3-80da-d2c85bdf1475"],
+ " \[LongDash] find a k-club"
+}], "GuideText",
+ CellChangeTimes->{{3.8709625645421247`*^9, 3.8709625694391*^9}},
+ CellID->92633195,ExpressionUUID->"de7f977a-33d3-49b0-a8f3-86709a5567ca"],
+
+Cell[TextData[{
+ Cell[BoxData["FindKPlex"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"d35d4349-032d-49fa-9fec-4b2c10c7d688",ExpressionUUID->
+  "da2967d3-e11b-43b5-ae7e-475c3edf4bea"],
+ " \[LongDash] find a k-plex"
+}], "GuideText",
+ CellChangeTimes->{{3.87096257517342*^9, 3.87096257986119*^9}},
+ CellID->633459465,ExpressionUUID->"e7c4369b-81c8-4c21-86fa-c5cbfae4025e"],
+
+Cell[TextData[{
+ Cell[BoxData["FindMaximumCut"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"415d8a4c-5430-49ec-9270-591c3e88b3c1",ExpressionUUID->
+  "eae5e715-d32a-4422-a0e0-d7791c3ddf5b"],
+ " \[LongDash] find a maximum cut of a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870962596389987*^9, 3.8709626174622803`*^9}},
+ CellID->18615560,ExpressionUUID->"63014813-0ff4-463d-b70d-f31ff2408422"],
+
+Cell[TextData[{
+ Cell[BoxData["FindMaximumFlow"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"473f5650-dc3b-4919-9398-eb507f13d75a",ExpressionUUID->
+  "b19afe10-32a7-4bef-8741-059cb3493cf2"],
+ " \[LongDash] find a maximum flow in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.8709626511907744`*^9, 3.87096266292311*^9}},
+ CellID->365140626,ExpressionUUID->"74e4fe7a-c2a8-46c7-8a55-f669ea8de3af"],
+
+Cell[TextData[{
+ Cell[BoxData["FindMinimumCostFlow"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"9f3cff99-d4f3-4150-a009-3d5859ed58aa",ExpressionUUID->
+  "78a8e29b-ed67-4434-b11e-e1acadd0434a"],
+ " \[LongDash] find a minimum cost flow in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870962689099002*^9, 3.8709627014417057`*^9}},
+ CellID->749549309,ExpressionUUID->"97b10ffa-0081-4f95-8a5e-097d94842ac3"],
+
+Cell[TextData[{
+ Cell[BoxData["FindMinimumCut"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"d99d4be5-1747-436b-8495-214a6ce54be4",ExpressionUUID->
+  "336dd8bd-18b1-4ffa-b51e-f13d2609ae4c"],
+ " \[LongDash] find a minimum cut in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870962714237689*^9, 3.8709627250785093`*^9}},
+ CellID->43090996,ExpressionUUID->"042d4644-71f7-4a96-aa1b-f268e6af0007"],
+
+Cell[TextData[{
+ Cell[BoxData["FindPath"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"5ad3258b-eeaa-4d17-b305-4784802354ac",ExpressionUUID->
+  "d80b039c-c248-4e06-b8ff-53df0e2e2ec4"],
+ " \[LongDash] find a path between two vertices in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870962731930563*^9, 3.870962741267373*^9}},
+ CellID->279128447,ExpressionUUID->"f2401fc9-1849-4799-b786-9ffb967bfce9"],
+
+Cell[TextData[{
+ Cell[BoxData["FindPlanarColoring"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"71f5720e-f201-4b59-a075-5a71c48f0568",ExpressionUUID->
+  "36bb4b30-87e9-43fe-8642-36dbe6ac7e20"],
+ " \[LongDash] find a minimal-size coloring for the faces of a planar graph"
+}], "GuideText",
+ CellChangeTimes->{{3.8709627505686164`*^9, 3.8709627702090387`*^9}},
+ CellID->172238450,ExpressionUUID->"10deb457-c473-4bcc-983c-573d93889ab1"],
+
+Cell[TextData[{
+ Cell[BoxData["FindPostmanTour"], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"a4c69d07-53b1-4fec-b7d0-a1371d1430cd",ExpressionUUID->
+  "7149b17f-8a0b-4fc7-9a38-9f76d50588ed"],
+ " \[LongDash] find a Chinese postman tour in a graph"
+}], "GuideText",
+ CellChangeTimes->{{3.870962779838608*^9, 3.8709627904677563`*^9}},
+ CellID->70425,ExpressionUUID->"97819f72-6d5d-4ed9-880b-12aa22d8c0fe"],
+
+Cell[TextData[{
  Cell[BoxData[
   TagBox[
    FrameBox["\<\"XXXX\"\>"],
    "FunctionPlaceholder"]], "InlineGuideFunction",
   TaggingRules->{"PageType" -> "Function"},
-  CellTags->"5ad3258b-eeaa-4d17-b305-4784802354ac",ExpressionUUID->
-  "c8aa469e-24a5-4745-8fa5-8c185e72f901"],
+  CellTags->"9f8389d7-3c7e-450b-9c39-4d01f92521d1",ExpressionUUID->
+  "317236ab-c4cc-4544-b4b9-cf806bc13a3d"],
  " \[LongDash] ",
  Cell[BoxData[
   TagBox[
@@ -151,9 +315,9 @@ Cell[TextData[{
    EventHandlerTag[{"MouseClicked" :> SelectionMove[
        EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
      Automatic, PassEventsUp -> True}]]],ExpressionUUID->
-  "589f0add-e2d2-4083-8d8e-73f87af8db2a"]
+  "bc5942ba-ee02-4013-97d5-49709d1c4f36"]
 }], "GuideText",
- CellID->565597949,ExpressionUUID->"17f53fe4-c59b-4b9b-a620-4d831f47dde4"],
+ CellID->24333499,ExpressionUUID->"ec10b05e-411e-4416-93db-50987a5071e4"],
 
 Cell[TextData[{
  Cell[BoxData["FindShortestPath"], "InlineGuideFunction",
@@ -336,39 +500,71 @@ Cell[4587, 116, 449, 8, 25, "GuideText",ExpressionUUID->"125e1e07-9a5e-45b5-a05c
  CellID->363374196],
 Cell[5039, 126, 453, 8, 25, "GuideText",ExpressionUUID->"44533884-9981-434e-bee2-bc8a63c3cdd6",
  CellID->1031877369],
-Cell[5495, 136, 712, 19, 28, "GuideText",ExpressionUUID->"17f53fe4-c59b-4b9b-a620-4d831f47dde4",
+Cell[5495, 136, 497, 9, 25, "GuideText",ExpressionUUID->"17f53fe4-c59b-4b9b-a620-4d831f47dde4",
  CellID->565597949],
-Cell[6210, 157, 487, 9, 25, "GuideText",ExpressionUUID->"cd780c62-ed12-4f57-8145-f36e64cdf6bb",
+Cell[5995, 147, 440, 8, 25, "GuideText",ExpressionUUID->"53c10bf8-f8dd-4cf3-bd6d-c452e9bcd2c7",
+ CellID->461840883],
+Cell[6438, 157, 483, 9, 44, "GuideText",ExpressionUUID->"c70032fb-e947-48a1-ad54-e82aa67b37c1",
+ CellID->101379775],
+Cell[6924, 168, 488, 9, 44, "GuideText",ExpressionUUID->"1dfe8f6e-78dc-4977-86df-111414fa25e9",
+ CellID->211458334],
+Cell[7415, 179, 439, 8, 25, "GuideText",ExpressionUUID->"ddfaf1eb-c281-4656-8186-c1fd19a23577",
+ CellID->86493837],
+Cell[7857, 189, 436, 9, 25, "GuideText",ExpressionUUID->"10d18bab-500a-4be2-b60c-ccd5ba001246",
+ CellID->32485496],
+Cell[8296, 200, 416, 8, 25, "GuideText",ExpressionUUID->"a0bab55a-9fdf-469e-aff6-a5b535d7493c",
+ CellID->42777921],
+Cell[8715, 210, 408, 8, 25, "GuideText",ExpressionUUID->"de7f977a-33d3-49b0-a8f3-86709a5567ca",
+ CellID->92633195],
+Cell[9126, 220, 407, 8, 25, "GuideText",ExpressionUUID->"e7c4369b-81c8-4c21-86fa-c5cbfae4025e",
+ CellID->633459465],
+Cell[9536, 230, 431, 8, 25, "GuideText",ExpressionUUID->"63014813-0ff4-463d-b70d-f31ff2408422",
+ CellID->18615560],
+Cell[9970, 240, 433, 8, 25, "GuideText",ExpressionUUID->"74e4fe7a-c2a8-46c7-8a55-f669ea8de3af",
+ CellID->365140626],
+Cell[10406, 250, 443, 8, 25, "GuideText",ExpressionUUID->"97b10ffa-0081-4f95-8a5e-097d94842ac3",
+ CellID->749549309],
+Cell[10852, 260, 431, 8, 25, "GuideText",ExpressionUUID->"042d4644-71f7-4a96-aa1b-f268e6af0007",
+ CellID->43090996],
+Cell[11286, 270, 438, 8, 25, "GuideText",ExpressionUUID->"f2401fc9-1849-4799-b786-9ffb967bfce9",
+ CellID->279128447],
+Cell[11727, 280, 469, 8, 25, "GuideText",ExpressionUUID->"10deb457-c473-4bcc-983c-573d93889ab1",
+ CellID->172238450],
+Cell[12199, 290, 438, 8, 25, "GuideText",ExpressionUUID->"97819f72-6d5d-4ed9-880b-12aa22d8c0fe",
+ CellID->70425],
+Cell[12640, 300, 711, 19, 28, "GuideText",ExpressionUUID->"ec10b05e-411e-4416-93db-50987a5071e4",
+ CellID->24333499],
+Cell[13354, 321, 487, 9, 25, "GuideText",ExpressionUUID->"cd780c62-ed12-4f57-8145-f36e64cdf6bb",
  CellID->138729883],
-Cell[6700, 168, 712, 19, 28, "GuideText",ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b",
+Cell[13844, 332, 712, 19, 28, "GuideText",ExpressionUUID->"e3f7e4a5-065b-4f7d-972b-061a074da11b",
  CellID->337768848],
 Cell[CellGroupData[{
-Cell[7437, 191, 103, 1, 26, "GuideDelimiter",ExpressionUUID->"909fc0e7-8eeb-44a4-a430-a7cd55d389a3",
+Cell[14581, 355, 103, 1, 26, "GuideDelimiter",ExpressionUUID->"909fc0e7-8eeb-44a4-a430-a7cd55d389a3",
  CellID->311258892],
-Cell[7543, 194, 2042, 51, 28, "InlineGuideFunctionListing",ExpressionUUID->"8dc037eb-d580-40a0-8d42-0995edaf7976",
+Cell[14687, 358, 2042, 51, 28, "InlineGuideFunctionListing",ExpressionUUID->"8dc037eb-d580-40a0-8d42-0995edaf7976",
  CellID->173389911]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9634, 251, 121, 1, 74, "GuideMoreAboutSection",ExpressionUUID->"0395ce0e-e76d-4b37-b761-7ed736306e72",
+Cell[16778, 415, 121, 1, 74, "GuideMoreAboutSection",ExpressionUUID->"0395ce0e-e76d-4b37-b761-7ed736306e72",
  CellID->23220180],
-Cell[9758, 254, 106, 1, 25, "GuideMoreAbout",ExpressionUUID->"5130739a-fce3-411c-9dcf-b19ec18cb133",
+Cell[16902, 418, 106, 1, 25, "GuideMoreAbout",ExpressionUUID->"5130739a-fce3-411c-9dcf-b19ec18cb133",
  CellID->1567025153],
-Cell[9867, 257, 105, 1, 25, "GuideMoreAbout",ExpressionUUID->"ee79a53a-2833-4c84-8f98-4094d915537f",
+Cell[17011, 421, 105, 1, 25, "GuideMoreAbout",ExpressionUUID->"ee79a53a-2833-4c84-8f98-4094d915537f",
  CellID->252299663]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10009, 263, 191, 2, 74, "GuideRelatedLinksSection",ExpressionUUID->"2bc7c49e-a881-449c-a9fb-300ce15a496a",
+Cell[17153, 427, 191, 2, 74, "GuideRelatedLinksSection",ExpressionUUID->"2bc7c49e-a881-449c-a9fb-300ce15a496a",
  CellID->415694148],
-Cell[10203, 267, 108, 1, 25, "GuideRelatedLinks",ExpressionUUID->"4823ac5b-075d-4e75-aae0-2e40fdd93af5",
+Cell[17347, 431, 108, 1, 25, "GuideRelatedLinks",ExpressionUUID->"4823ac5b-075d-4e75-aae0-2e40fdd93af5",
  CellID->604165924]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10348, 273, 175, 2, 74, "KeywordsSection",ExpressionUUID->"73e8092a-f89e-4591-8784-0234ce6078ac",
+Cell[17492, 437, 175, 2, 74, "KeywordsSection",ExpressionUUID->"73e8092a-f89e-4591-8784-0234ce6078ac",
  CellID->530957582],
-Cell[10526, 277, 166, 2, 24, "Keywords",ExpressionUUID->"b7b39d0a-e7ef-4652-9fd5-70a6bec80976",
+Cell[17670, 441, 166, 2, 24, "Keywords",ExpressionUUID->"b7b39d0a-e7ef-4652-9fd5-70a6bec80976",
  CellID->56140550],
-Cell[10695, 281, 167, 2, 24, "Keywords",ExpressionUUID->"a239d6ea-975f-42df-b081-69b3d43f5de8",
+Cell[17839, 445, 167, 2, 24, "Keywords",ExpressionUUID->"a239d6ea-975f-42df-b081-69b3d43f5de8",
  CellID->101210638]
 }, Open  ]]
 }
